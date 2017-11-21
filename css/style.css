@@ -1,0 +1,55 @@
+.container * {
+    display: block;
+    border: 2px solid DarkSeaGreen;
+    color: DarkSeaGreen;
+    padding: 5px;
+    margin: 15px;
+    background: PapayaWhip;
+}
+
+body {
+  background: PeachPuff;
+}
+
+.btn,
+.submit{
+  border-radius: 10px;
+  border: none;
+  background: #e11;
+  color: #fff
+}
+
+.btn:hover,
+.submit:hover{
+  background: #b00;
+}
+
+.listBlock{
+  background-color: rgb(50, 150,220);
+  color: black;
+  width:150px;
+  height:150px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.textHighlite{
+  background-color: yellow;
+  color: blue;
+  font-size: 22px;
+  font-width: bold;
+}
+
+.container article ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.first3Highlite{
+  background-color: purple;
+  color: red;
+  border: 5px solid black;
+  font-size: 22px;
+  font-width: bold;
+}

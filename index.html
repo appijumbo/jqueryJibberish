@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>jQuery Traversing</title>
+
+
+
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+  <div class="container">
+  <div>div
+    <ul>ul
+      <li>li
+        <span class="parent">span outer
+          <p>p top</p>
+          <span class="innerChild">span inner</span>
+          <h2>h2 inner</h2>
+          <p>p1 inner</p>
+          <p>p2 inner</p>
+          <h4>h4 inner</h4>
+          <p>p3 inner</p>
+          <h3>h3 inner</h3>
+          <p>p4 inner</p>
+        </span>
+      </li>
+    </ul>
+    <article>article
+    <ul> ul
+        <li class="listBlock">list 1</li>
+        <li class="listBlock">list 2</li>
+        <li class="listBlock">list 3</li>
+        <li class="listBlock">list 4
+          <div>another div</div>
+        </li>
+        <button class="btn" type="button">add to list</button>
+        <button class="btn" type="button">remove from list</button>
+
+        <form action="" method="post">
+          <field>
+            <textarea name="words" id="textarea" cols="30" rows="10">Type some stuff here...</textarea>
+            stuff here: <input type="text" name="text">
+            <input class="submit" name="submit" type="submit" name="submit">
+          </field>
+          <button class="btn" type="button" >clear text area</button>
+          <button class="btn" type="button" >turn off list buttons</button>
+        </form>
+
+    </ul>
+    </article>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
